@@ -5,7 +5,7 @@ import EmojiEventsRounded from "@mui/icons-material/EmojiEventsRounded";
 import LocalFireDepartmentRounded from "@mui/icons-material/LocalFireDepartmentRounded";
 import AppBottomNav from "./components/AppBottomNav";
 import { useIsMobile } from "./components/ui/use-mobile";
-import ButtonCountsRealtimeList from "./components/ButtonCountsRealtimeList";
+import ExerciseScoresRealtimeTable from "./components/ExerciseScoresRealtimeTable";
 import metaHealLogo from "../assets/MetaHEAL_logo.png";
 import aiGreetingVideo from "../assets/ElevenLabs_video_google-veo-3-1-fast_adelie penguin _2026-06-26T06_03_12.mp4";
 import bannerBg from "../assets/banner_bg.png";
@@ -788,7 +788,7 @@ function TodayPlanScreen() {
         <TrainingDetailModal item={selectedTrainingItem} onClose={() => setSelectedTrainingItem(null)} />
       )}
 
-      {/* <ButtonCountsRealtimeList /> */}
+      {/* <ExerciseScoresRealtimeTable /> */}
     </div>
   );
 }
